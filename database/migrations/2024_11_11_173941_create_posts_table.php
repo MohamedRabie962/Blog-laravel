@@ -13,6 +13,7 @@ return new class extends Migration
 {
     // database/migrations/xxxx_xx_xx_create_posts_table.php
 
+    // database/migrations/xxxx_xx_xx_create_posts_table.php
     Schema::create('posts', function (Blueprint $table) {
         $table->id();
         $table->string('title');
